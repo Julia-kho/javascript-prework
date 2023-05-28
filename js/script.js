@@ -1,10 +1,6 @@
-let argButtonName,
-buttonPaper, 
-buttonRock, 
-buttonScissors;
-
-buttonRock = document.getElementById('button-rock');
-buttonPaper = document.getElementById('button-paper');
+let argButtonName;
+const buttonPaper = document.getElementById('button-rock'),
+buttonRock = document.getElementById('button-paper'),
 buttonScissors = document.getElementById('button-scissors');
 
 function buttonClicked(argButtonName) {
