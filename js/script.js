@@ -1,4 +1,4 @@
-let argButtonName, 
+let argButtonName,
 buttonPaper, 
 buttonRock, 
 buttonScissors;
@@ -11,7 +11,13 @@ function buttonClicked(argButtonName) {
   clearMessages();
   console.log(argButtonName + ' został kliknięty');
 
-    var argComputerMove, argMoveId, argPlayerMove, computerMove, playerInput, playerMove, randomNumber, x;
+    let argComputerMove, 
+    argMoveId, 
+    argPlayerMove, 
+    computerMove, 
+    playerInput, 
+    playerMove, 
+    randomNumber;
 
     function getMoveName(argMoveId) {
     console.log('wywołano funkcję getMoveName z argumentem: ' + argMoveId);
